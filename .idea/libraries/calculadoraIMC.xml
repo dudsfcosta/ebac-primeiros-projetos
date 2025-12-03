@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="calculadoraIMC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/calculadoraIMC/calculadoraIMC.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Índice de Massa Corporal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <p>Boas-vindas à calculadora!</p>
+        <p>Busque um padrão de vida saudável para bons resultados no futuro.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Valores</h2>
+            <form>
+            <p>
+                <!-- peso kg -->
+                <label for="peso">Peso (Kg)</label>
+                <input type="number" name="peso" id="peso">
+            </p>
+            <p><!-- altura m -->
+                <label for="altura">Altura (m)</label>
+                <input type="number" name="altura" id="altura">
+            </p>
+            </form>
+        </section>
+        <section>
+            <!-- calcular -->
+            <p>
+                <button onclick="calcularIMC()" id="calcular">Calcular IMC</button>
+            </p>
+            <!-- valor calculado -->
+            <p id="imc"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Eduarda Ferreira Costa</p>
+    </footer>
+</body>
+</html>
